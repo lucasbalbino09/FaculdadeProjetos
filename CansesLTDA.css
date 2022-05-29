@@ -4,14 +4,17 @@ body {
     color: rgb(0, 0, 0);
     background-image: linear-gradient(45deg, black,white,white);
 }
-.foto {
-    border-radius: 10px;
+.foto,.imgfooter {
+    border-radius: 50px;
+    width: 100px;
+}
+.sobre p {
+    font-size: 20px;
+}
+.sobre h1 {
+    padding-bottom: 30px;
 }
 
-.container-fluid_1 {
-    right: 10px;
-    background-color: #B2BABB;
-}
 .container {
     padding-top: 5% ;
     text-align: center;
@@ -20,7 +23,6 @@ body {
     padding-bottom: 5%;
 }
 .equipe {
-    right: 15%;
     margin-top: 10%;
     font-size: 10px;
 }
@@ -28,6 +30,9 @@ body {
     font-size: 15px;
     color: rgb(24, 23, 22);
     text-align: center;
+}
+.historia h1 {
+    padding-bottom: 25px;
 }
 .barra a {
     text-decoration: none;
@@ -44,17 +49,45 @@ body {
 }
 #Clientes {
     margin-top: 10%;
-    left: 12px;
     padding: 12px;
     text-align: center;
     align-items: center;
 }
 .table {
+    text-align: center;
     margin-top: 5%;
     color: white;
 }
 .Servicos {
     margin-top: 5%;
-    color: white;
+    color: black;
     text-align: center;
+
 }
+.table-bordered {
+    margin: 5%;
+    width: 90%;
+    font-size: 20px;
+}
+#servicos th {
+    color: rgb(0, 0, 0);
+}
+.perguntasf h1 {
+    text-align: center;
+    padding: 5%;
+    color: black;
+}
+.perguntasf div {
+    padding: 20px;
+}
+
+.perguntasf {
+    background-color: rgba(153, 150, 150, 0.295);
+    margin: 10%;
+    color: #fdffff;
+    font-size: 20px;
+}
+.rodape {
+    background-color: #f8f9fa;
+}
+
